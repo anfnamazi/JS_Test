@@ -7,3 +7,7 @@ let b = Object.create(a);
 
 console.log(b.__proto__ == a);
 console.log(b.__proto__.__proto__ == Object.prototype);
+
+let c = Object.create(null);
+
+console.log(c.__proto__);
