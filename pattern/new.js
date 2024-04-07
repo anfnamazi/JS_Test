@@ -5,9 +5,7 @@ function Person(name, age) {
 }
 
 Person("ag", 12);
-
-console.log(name, age, target);
-
 const person = new Person("tb", 24);
 
+console.log(name, age, target);
 console.log(person);
